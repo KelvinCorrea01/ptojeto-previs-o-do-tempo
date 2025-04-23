@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("https://picsum.photos/1920/1089?random=1://fastly.picsum.photos/id/566/1920/1089.jpg?hmac=q50avjw2AXK5X34eVDjhhO0evjY6mIrgGYUXa2451RE");
+}
+
+.container-grande{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.imput-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 70px);
+}
+
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-buca{
+    width: 20px;
+}
+.container-medio{
+    margin-top: 30px;
+}
+.cidade{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.container-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #fff;
+    margin-top: 20px;
+
+}
